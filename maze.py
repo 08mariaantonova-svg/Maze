@@ -1,6 +1,6 @@
 from pygame import *
 window = display.set_mode((700,500))
-display.set_caption('Догонялки')
+display.set_caption('Chase')
 backround = transform.scale(image.load('background.jpg'),(700,500)) 
 sprite1 = transform.scale(image.load('hero.png'),(50,50)) 
 sprite2 = transform.scale(image.load('cyborg.png'),(50,50)) 
